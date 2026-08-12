@@ -268,6 +268,15 @@ test_phon uz "o:zb'ektS&
 'o:zbek t'yLy" "Ўзбекча, ўзбек тили" "Cyrl"
 test_phon vi "t['@3t[_| k'a:4_| m,O6j_| N'y@2j_| s'i1n^_| z'a:1_| d_'e2w_| d_,y@6c_| t['y6_| z'O1_| v,a:2_| _b'i2n^_| d_'a4N_| v'e2_| n^'@1n_| f'@4m_| v,a:2_| kw'iE2n_| l'@:6j_|
 m,O6j_| k,O1n_| N'y@2j_| d_'e2w_| d_,y@6c_| t['a:6w_| hw'a:3_| _b'a:1n_| tS,O1_| l'i3_| tS'i3_| v,a:2_| l'y@1N_| t['@1m_| v,a:2_| k'@2n_| f,a:4j_| d_'o3j_| s'y4_| v,@:3j_| n^'a1w_| tS'O#1N_| t['i2n^_| 'e-1n^_| 'E7m_|" "Tất cả mọi người sinh ra đều được tự do và bình đẳng về nhân phẩm và quyền lợi. Mọi con người đều được tạo hóa ban cho lý trí và lương tâm và cần phải đối xử với nhau trong tình anh em." "Latn"
+test_phon ku "b'un" "bûn"
+test_phon ku "kI*'In" "kirin"
+test_phon ku "tS'un" "çûn"
+test_phon ku "hat'In" "hatin"
+test_phon ku "c'i" "kî"
+test_phon ku "tS'I" "çi"
+test_phon ku "kEnJ'i" "kengî"
+test_phon ku "tS'Ima" "çima"
+test_phon ku "tS'awa" "çawa"
 
 ##### Fallback to other languages in different scripts (language switch).
 
