@@ -105,6 +105,10 @@ wî	$u+
 me	$u+
 we	$u+
 wan	$u+
+tu	$u+
+ew	$u+
+em	$u+
+hûn	$u+
 
 bes	$pause
 an	$u $pause
@@ -130,6 +134,8 @@ hwd	hEr||wEki||dIn
 
 lê	$u+
 nebû	$1
+
+// verb-prefix stress (negation, prohibitive, imperative, preverbs) — intentionally partial, extend as needed
 naxwaze	$1
 nabînim	$1
 nizanim	$1
@@ -149,7 +155,3 @@ daketin	$1
 dakeve	$1
 derketin	$1
 derket	$1
-tu	$u+
-ew	$u+
-em	$u+
-hûn	$u+
