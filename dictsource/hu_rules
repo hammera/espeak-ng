@@ -3974,6 +3974,12 @@ ha) s (szakér S
 pajtá) s (sz S
 adjuván) s (sz S
 makogá) s (sz S
+csipá) s (sz S
+hú) s (szörnnye S
+ki) s (-szamo S
+szalmá) s (sz S
+hú) s (szalon S
+üzemelteté) s (sz S
 
 .group ss
         ssz        ss2
@@ -5167,7 +5173,7 @@ robo) t (ci t
 beté) t (s t
 integrál) t (játsz t
 robo) t (s t
-sej) t (sü t
+sej) t (sülly t
 érle) t (s t
 éle) t (ci t
 éle) t (cé t
@@ -5650,7 +5656,15 @@ antan) t (se t
 jelene) t (s t
 nyilatkoza) t (jav t
 robo) t (játé t
-sej) t (s t
+sej) ts tS
+sej) tsora t|SoR2A
+sej) ts (or t|S
+sej) t (stá t
+sej) t (stim t
+sej) t (seb t
+sej) t (só t
+sej) t (str t
+sej) t (su t
 képle) t (sáv t
 kür) t (játé t
 pilo) t (jel t
@@ -5717,6 +5731,8 @@ tes) t (jeg t
 látsza) t (jázmi t
 tuca) t (sor t
 defek) t (ja t
+kimene) t (jut t
+folyama) t (jut t
 
 .group tj
 ú) tj (árá t|j	For example keresztútjárásnál word
@@ -6465,6 +6481,7 @@ vá) z (sor z
 í) z (sorn z
 í) z (sorre z
 matró) z (s z
+kené) z (sé z
 
 .group
         $          dolla:R2
