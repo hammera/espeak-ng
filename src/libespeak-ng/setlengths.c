@@ -640,8 +640,7 @@ void CalcLengths(Translator *tr)
 			length_mod = length_mod * len;
 
 			if (p->tone_ph != 0) {
-				PHONEME_TAB *tone_ph = p->tone_ph_data != NULL
-					? p->tone_ph_data : phoneme_tab[p->tone_ph];
+				PHONEME_TAB *tone_ph = TonePhoneme(p);
 				if ((tone_ph != NULL) && ((tone_mod = tone_ph->std_length) > 0)) {
 					// a tone phoneme specifies a percentage change to the length
 					length_mod = (length_mod * tone_mod) / 100;
@@ -679,9 +678,7 @@ void CalcLengths(Translator *tr)
 			env2 = p->env + 1; // version for use with preceding semi-vowel
 
 			if (p->tone_ph != 0) {
-				InterpretPhoneme2WithData(p->tone_ph,
-					p->tone_ph_data != NULL ? p->tone_ph_data : phoneme_tab[p->tone_ph],
-					&phdata_tone);
+				InterpretPhoneme2WithData(p->tone_ph, TonePhoneme(p), &phdata_tone);
 				pitch_env = GetEnvelope(phdata_tone.pitch_env);
 			} else
 				pitch_env = envelope_data[env2];

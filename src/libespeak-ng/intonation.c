@@ -1079,8 +1079,7 @@ void CalcPitches(Translator *tr, int clause_type)
 			}
 
 			if (p->tone_ph) {
-				ph = p->tone_ph_data != NULL
-					? p->tone_ph_data : phoneme_tab[p->tone_ph];
+				ph = TonePhoneme(p);
 				if (ph != NULL) {
 					x = (p->pitch1 + p->pitch2)/2;
 					p->pitch2 = x + ph->end_type;

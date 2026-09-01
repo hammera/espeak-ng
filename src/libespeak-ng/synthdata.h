@@ -44,6 +44,8 @@ void InterpretPhoneme2WithData(int phcode,
 		PHONEME_TAB *ph,
 		PHONEME_DATA *phdata);
 
+PHONEME_TAB *TonePhoneme(const PHONEME_LIST *plist);
+
 void FreePhData(void);
 const unsigned char *GetEnvelope(int index);
 espeak_ng_STATUS LoadPhData(int *srate, espeak_ng_ERROR_CONTEXT *context);

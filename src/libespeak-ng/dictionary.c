@@ -659,8 +659,7 @@ const char *GetTranslatedPhonemeString(int phoneme_mode)
 				buf = WritePhMnemonic(buf, phoneme_tab[phonSYLLABIC], plist, use_ipa, NULL);
 			}
 			if (plist->tone_ph > 0) {
-				PHONEME_TAB *tone_ph = plist->tone_ph_data != NULL
-					? plist->tone_ph_data : phoneme_tab[plist->tone_ph];
+				PHONEME_TAB *tone_ph = TonePhoneme(plist);
 				if (tone_ph != NULL)
 					buf = WritePhMnemonic(buf, tone_ph, plist, use_ipa, NULL);
 			}

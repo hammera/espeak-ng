@@ -1040,3 +1040,13 @@ void InterpretPhoneme2(int phcode, PHONEME_DATA *phdata)
 {
 	InterpretPhoneme2WithData(phcode, phoneme_tab[phcode], phdata);
 }
+
+PHONEME_TAB *TonePhoneme(const PHONEME_LIST *plist)
+{
+	// Prefer the phoneme resolved while the word's own table was current.
+	// tone_ph on its own is table-local, so looking it up in phoneme_tab is
+	// only correct for words which did not switch language.
+	if (plist->tone_ph_data != NULL)
+		return plist->tone_ph_data;
+	return phoneme_tab[plist->tone_ph];
+}
